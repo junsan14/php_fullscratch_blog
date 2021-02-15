@@ -1,0 +1,485 @@
+body{
+	margin: 0 auto;
+	font-family: 'Kosugi Maru', sans-serif;
+	
+	background: #ffffff;
+	margin-top: 0;
+	font-size: 20px;	
+}
+
+body input[type="text"],body input[type="password"],input[type="submit"],body textarea,body input[type="datetime-local"],select{
+	font-family: inherit;
+
+}
+a{
+	text-decoration: none;
+	color:#111;
+}
+a:hover{
+
+	cursor: pointer;
+	color:grey;
+}
+
+
+.error_msg{
+	text-align: center;
+	margin-bottom:2px;
+	margin-left: 30px;
+}
+/*ヘッダー*/
+
+
+header{
+	margin-bottom: 150px;
+	display: inline-block;
+	position: fixed;
+	overflow: hidden;
+	background: #eee;
+	width: 100%;
+	height: 100px;
+	top:0px;
+}
+#icon_menu{
+
+	display: flex;
+
+}
+#icon_menu li{
+	display: inline-block;
+
+
+}
+
+#site_menu{
+	display: flex;
+	margin-top: -90px;
+	float: right;
+
+}
+
+
+
+#site_menu ul{
+	
+	display: flex;
+	overflow: hidden;
+	float: right;
+
+
+}
+#site_menu li{
+	list-style: none;
+	margin-right: 50px;
+	font-size: 30px;
+	color: #111;
+	margin-top: 10px;
+
+}
+
+.content_width{
+	width: 90%;
+	margin:0 auto;
+
+	
+	margin-top:140px;
+	margin-bottom: 40px;
+
+
+}
+
+
+/*メインコンテンツ*/
+.title{
+	text-align: center;
+	padding: 20px 20px;
+	margin: 0 auto;
+	border: 1px solid;
+	display: inline-block;
+
+
+
+}
+
+
+
+/*STUDY TIME*/
+
+#totaltime,#todaytime{
+	text-align: center;
+}
+#time_error{
+	text-align: center;
+	color: red;
+}
+
+
+#study_time_counter{
+	text-align: center;
+
+}
+
+#study_time_counter form input[type="submit"]{
+	color: white;
+	background: black;
+	width: 100px;
+	height: 50px;
+	border-radius: 50px;
+	margin: 0 10px;
+
+	margin-bottom: 40px;
+	font-size: 20px;
+
+}
+
+
+/*about*/
+#about{
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 100px;
+
+}
+
+
+
+
+
+
+
+#about td{
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+#intro_p{
+	width: 70%;
+	margin: 0 auto;
+	text-align:left;
+
+}
+
+#about p{
+
+	margin: 0 auto;
+	margin-top: 50px;
+	font-size: 20px;
+	line-height: 60px;
+
+}
+#about span{
+	margin: 0 auto;
+}
+
+/*STUDY PLAN*/
+
+#study_plan{
+	margin-bottom:40px ;
+}
+
+#study_plan table{
+	margin: 0 auto;
+	margin-top: 50px;
+
+}
+
+#study_plan td{
+	margin-left: 20px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+/*index_blog*/
+#blog .title{
+	margin-bottom: 50px;
+}
+#blog{
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.blog_col{
+	width: 80%;
+	background: white;
+	margin: 20px auto;
+	padding-bottom: 150px;
+	border-bottom:1px dotted;
+
+
+
+}
+.blog_col .blog_summary{
+	width: 70%;
+	margin: 0 auto;
+
+}
+
+
+
+.blog_gobotton{
+	border: 1px solid;
+	padding: 10px 10px;
+	margin-top:50px;
+	margin-right:50px;
+	margin-bottom:20px;
+	float: right;
+}
+
+.blog_title{
+	font-style: bold;
+}
+.blog_date{
+	font-size: 15px;
+}
+
+
+
+
+/*contact*/
+#contact{
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.main_form table{
+	margin: 0 auto;
+	font-size: 30px;
+}
+.main_form  table td input{
+	margin-bottom:20px;
+	font-size: 30px;
+}
+.main_form  table td p{
+	margin-top: -5px;
+	
+}
+.main_form input[type="text"],.main_form input[type="password"],.main_form input[type="datetime-local"]{
+	width: 600px;
+	margin-left: 20px;
+
+	font-size: 30px;
+
+	
+}
+.main_form select{
+	width: 600px;
+	margin-left: 20px;
+	font-size: 30px;
+
+}
+
+.main_form textarea{
+	
+	margin-bottom: 20px;
+	font-size: 25px;
+	margin-left: 20px;
+
+
+
+}
+.main_form  textarea #query{
+	width: 400px;
+	height: 400px;
+	margin-bottom: 20px;
+	font-size: 25px;
+	margin-left: 20px;
+
+
+
+}
+
+.main_form textarea #article_content{
+	width: 600px;
+	height: 1600px;
+
+}
+.main_form input[type="checkbox"]{
+	
+	margin-left: 200px;
+
+	
+
+}
+
+
+.main_form input[type="submit"]{
+	width: 100px;
+	height: 50px;
+	background: black;
+	color: white;
+
+	margin-bottom: 20px;
+	font-size: 20px;
+
+	
+
+}
+
+input[type="submit"]:hover{
+	cursor: pointer;
+}	
+
+
+/*EDIT ARTICLE*/
+#edit_article table{
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+#edit_article tr{
+	height: 40px;
+}
+#edit_article td{
+	text-align: center;
+	margin-bottom: 10px;
+}
+#edit_article p{
+	text-align: center;
+}
+
+/*BLOG_EDIT*/
+
+#blog_edit table{
+	margin: 0 auto;
+
+
+}
+#blog_edit th{
+	padding-bottom: 20px;
+	border-bottom:1px solid;
+}
+
+#blog_edit td{  
+	border-bottom:1px dotted;
+	padding:10px 10px;
+}
+
+
+/*BLOG_MAIN*/
+#blog_maincontent{
+	width: 80%;
+	margin: 50px auto;
+	line-height: 50px;
+	font-size: 23px;
+	
+	overflow: hidden;
+	background: #fff;
+	padding: 50px 50px;
+
+}
+#blog_maincontent p{
+	text-overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+}
+#blog_maincontent h2{
+	text-align: center;
+	
+}
+#blog_maincontent h3{
+	
+	float: right;
+	font-size: 15px;
+	width: 100%;
+	text-align:right;
+	margin-top: -30px;
+}
+#blog_maincontent img{
+	width: 800px;
+}
+
+
+#blog_maincontent .summary{
+	background: #FFF0F5;
+	margin:10px 10px;
+	
+	padding: 20px 20px;
+	border: 2px solid;
+	
+	
+}
+#blog_maincontent .blog_menu{
+
+	width: auto;
+	margin:10px 10px;
+	padding: 20px 20px;
+	margin-bottom:-105px;
+}
+#blog_maincontent .blog_menu li{
+	margin-left: 20px;
+	line-height: 0px;
+
+
+}
+#blog_maincontent .sub_title{
+
+	background: #eee;
+	padding: 15px 15px;
+	margin:10px 10px;
+	border-left: 1px solid;
+	width: 300px;
+
+
+	
+}
+#blog_maincontent .content{
+	margin-left: 40px;
+	
+	
+}
+.ad{
+	padding-top:105px;
+}
+
+#blog_maincontent h4{
+	border: 1px solid;
+	width:200px ;
+	text-align:center;
+	padding: 10px 10px;
+}
+#blog_maincontent .allcontent{
+	margin-bottom: 100px;
+}
+
+
+/*フッター*/
+#footer{
+	height: 100px;
+	background: #eee;
+	text-align: center;
+	line-height: 100px;
+}
+
+/* ボタン全体 */
+.flowbtn17{
+border-radius:50%;
+position:relative;
+display:inline-block;
+width:30px;
+height:30px;
+font-size:20px;
+text-decoration:none;
+transition:.5s;
+color:#111;
+margin-top:10px;
+}
+/* ボタンマウスホバー時のテキスト指定 */
+.flowbtn17:hover{
+text-decoration:none;
+}
+/* アイコンをど真ん中に */
+.flowbtn17 i{
+position:absolute;
+top:50%;
+left:50%;
+-ms-transform:translate(-50%,-50%);
+-webkit-transform:translate(-50%,-50%);
+transform:translate(-50%,-50%);
+}
+/* Twitterマウスホバー時 */
+.flowbtn17.fl_tw2:hover,.flowbtn17.insta_btn2:hover,.flowbtn17.fl_fb2:hover{
+background: #eee;
+}
+
+
+
